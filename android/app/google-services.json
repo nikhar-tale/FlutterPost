@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "312711245712",
+    "project_id": "flutterpost-7d168",
+    "storage_bucket": "flutterpost-7d168.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312711245712:android:9e059ca131f42ab9d18d15",
+        "android_client_info": {
+          "package_name": "com.example.flutter_post"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeTec6k3-msSM7ZFdoOd9j4OgmV0M4bbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
