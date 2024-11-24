@@ -1,16 +1,16 @@
-# flutter_post
+# FlutterPost App
 
-A new Flutter project.
+FlutterPost is a simple social media-like Flutter application where users can post messages and view real-time updates. The app utilizes Firebase for authentication and Firestore for storing posts. It follows the BLoC architecture and adheres to best practices in Flutter development.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **User Authentication**: Email and password authentication using Firebase.
+- **Real-Time Post Updates**: Displays a list of posts with real-time Firestore updates.
+- **Firestore Integration**: Posts (message and username) are stored in Firestore.
+- **State Management**: Implements BLoC architecture for clean state management.
+- **Error Handling**: Handles API and Firebase interaction errors gracefully.
+- **UI Design**: Simple and clean UI for posting and viewing messages.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone https://github.com/your-username/FlutterPost.git
+cd FlutterPost
