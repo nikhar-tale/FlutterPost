@@ -21,14 +21,13 @@ lib/
 ├── screens/             # UI screens (Login, Signup, Posts)
 ├── widgets/             # Reusable UI components
 └── main.dart            # Application entry point
-
-## Optimized App
-To build the APK with optimized size, use the following command:
+```
 
 
 
 
-This command generates separate APKs for different ABIs (Application Binary Interfaces), resulting in smaller APK sizes. Users download only the APK that matches their device's ABI, reducing download time and saving storage space.
+
+
 
 
 
@@ -39,7 +38,11 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/nikhar-tale/FlutterPost.git
 cd FlutterPost
+```
+## Optimized App
+To build the APK with optimized size, use the following command:
 
 ```sh
 flutter build apk --split-per-abi
 ```
+This command generates separate APKs for different ABIs (Application Binary Interfaces), resulting in smaller APK sizes. Users download only the APK that matches their device's ABI, reducing download time and saving storage space.
