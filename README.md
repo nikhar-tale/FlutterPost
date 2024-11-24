@@ -35,10 +35,10 @@ This command generates separate APKs for different ABIs (Application Binary Inte
 ## Setup
 
 ### Step 1: Clone the Repository
-
-```sh
+Clone the repository to your local machine:
+```bash
 git clone https://github.com/nikhar-tale/FlutterPost.git
-```
+cd FlutterPost
 
 ```sh
 flutter build apk --split-per-abi
