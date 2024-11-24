@@ -26,9 +26,7 @@ lib/
 To build the APK with optimized size, use the following command:
 
 
-```sh
-flutter build apk --split-per-abi
-```
+
 
 This command generates separate APKs for different ABIs (Application Binary Interfaces), resulting in smaller APK sizes. Users download only the APK that matches their device's ABI, reducing download time and saving storage space.
 
@@ -39,5 +37,9 @@ This command generates separate APKs for different ABIs (Application Binary Inte
 ### Step 1: Clone the Repository
 
 ```sh
-git clone https://github.com/nikhar-tale/MyNews.git
+git clone https://github.com/nikhar-tale/FlutterPost.git
+```
+
+```sh
+flutter build apk --split-per-abi
 ```
